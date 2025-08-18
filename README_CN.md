@@ -3,7 +3,7 @@
 
 # 时间序列多模型控制平台 (Timeseries-MCP)
 
-[English](htttps://github.com/kongqi404/Timeseries-MCP/blob/main/README.md) | 中文
+[English](./README.md) | 中文
 
 <strong> 支持多种时间序列分析模型的MCP服务器 </strong>
 

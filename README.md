@@ -3,7 +3,7 @@
 
 # Timeseries-MCP
 
-English| [中文](htttps://github.com/kongqi404/Timeseries-MCP/blob/main/)
+English| [中文](./README_CN.md)
 
 <strong> MCP server supporting multiple time series analysis models </strong>
 
