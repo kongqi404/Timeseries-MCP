@@ -1,0 +1,19 @@
+name: static_check
+on: [pull_request]
+jobs:
+  static-check:
+    name: Static Code Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install uv
+        uses: astral-sh/setup-uv@v6
+        with: 
+            enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run static checks
+        run: uv run ruff check .
