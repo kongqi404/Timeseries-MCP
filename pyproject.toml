@@ -15,6 +15,12 @@ dependencies = [
 name = "bfsu"
 url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
 
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+    "ruff>=0.12.9",
+]
+
 
 [project.scripts]
 time_mcp = "time_mcp.server:cli"
