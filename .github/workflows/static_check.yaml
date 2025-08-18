@@ -16,4 +16,4 @@ jobs:
         run: uv sync
 
       - name: Run static checks
-        run: ruff check .
+        run: uv run ruff check .
