@@ -1,5 +1,5 @@
 name: static_check
-on: [push, pull_request]
+on: [pull_request]
 jobs:
   static-check:
     name: Static Code Analysis
