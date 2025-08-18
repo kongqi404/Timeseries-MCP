@@ -1,0 +1,20 @@
+[project]
+name = "timeseries-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.11.3",
+    "lightning>=2.5.3",
+    "minio>=7.2.16",
+    "pandas>=2.3.1",
+    "scikit-learn>=1.7.1",
+]
+[[tool.uv.index]]
+name = "bfsu"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+
+
+[project.scripts]
+time_mcp = "time_mcp.server:cli"
