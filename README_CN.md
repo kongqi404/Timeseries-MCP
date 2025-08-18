@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# 时间序列多模型控制平台 (Timeseries-MCP)
+# Timeseries-MCP
 
 [English](./README.md) | 中文
 
