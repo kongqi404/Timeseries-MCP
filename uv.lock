@@ -384,9 +384,9 @@ dependencies = [
     { name = "dnspython" },
     { name = "idna" },
 ]
-sdist = { url = "https://mirrors.bfsu.edu.cn/pypi/web/packages/48/ce/13508a1ec3f8bb981ae4ca79ea40384becc868bfae97fd1c942bb3a001b1/email_validator-2.2.0.tar.gz", hash = "sha256:cb690f344c617a714f22e66ae771445a1ceb46821152df8e165c5f9a364582b7" }
+sdist = { url = "https://mirrors.bfsu.edu.cn/pypi/web/packages/48/ce/13508a1ec3f8bb981ae4ca79ea40384becc868bfae97fd1c942bb3a001b1/email_validator-2.2.0.tar.gz", hash = "sha256:cb690f344c617a714f22e66ae771445a1ceb46821152df8e165c5f9a364582b7", size = 48967, upload-time = "2024-06-20T11:30:30.034Z" }
 wheels = [
-    { url = "https://mirrors.bfsu.edu.cn/pypi/web/packages/d7/ee/bf0adb559ad3c786f12bcbc9296b3f5675f529199bef03e2df281fa1fadb/email_validator-2.2.0-py3-none-any.whl", hash = "sha256:561977c2d73ce3611850a06fa56b414621e0c8faa9d66f2611407d87465da631" },
+    { url = "https://mirrors.bfsu.edu.cn/pypi/web/packages/d7/ee/bf0adb559ad3c786f12bcbc9296b3f5675f529199bef03e2df281fa1fadb/email_validator-2.2.0-py3-none-any.whl", hash = "sha256:561977c2d73ce3611850a06fa56b414621e0c8faa9d66f2611407d87465da631", size = 33521, upload-time = "2024-06-20T11:30:28.248Z" },
 ]
 
 [[package]]
@@ -659,7 +659,7 @@ wheels = [
 
 [[package]]
 name = "lightning"
-version = "2.5.3"
+version = "2.5.5"
 source = { registry = "https://mirrors.bfsu.edu.cn/pypi/web/simple" }
 dependencies = [
     { name = "fsspec", extra = ["http"] },
@@ -672,9 +672,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://mirrors.bfsu.edu.cn/pypi/web/packages/01/80/dddb5a382aa0ff18045aee6491f81e40371102cb05da2ad5a8436a51c475/lightning-2.5.3.tar.gz", hash = "sha256:4ed3e12369a1e0f928beecf5c9f5efdabda60a9216057954851e2d89f1abecde", size = 636577, upload-time = "2025-08-13T20:29:32.361Z" }
+sdist = { url = "https://mirrors.bfsu.edu.cn/pypi/web/packages/0f/dd/86bb3bebadcdbc6e6e5a63657f0a03f74cd065b5ea965896679f76fec0b4/lightning-2.5.5.tar.gz", hash = "sha256:4d3d66c5b1481364a7e6a1ce8ddde1777a04fa740a3145ec218a9941aed7dd30", size = 640770, upload-time = "2025-09-05T16:01:21.026Z" }
 wheels = [
-    { url = "https://mirrors.bfsu.edu.cn/pypi/web/packages/00/6b/00e9c2b03a449c21d7a4d73a7104ac94f56c37a1e6eae77b1c702d8dddf0/lightning-2.5.3-py3-none-any.whl", hash = "sha256:c551111fda0db0bce267791f9a90cd4f9cf94bc327d36348af0ef79ec752d666", size = 824181, upload-time = "2025-08-13T20:29:30.244Z" },
+    { url = "https://mirrors.bfsu.edu.cn/pypi/web/packages/2e/d0/4b4fbafc3b18df91207a6e46782d9fd1905f9f45cb2c3b8dfbb239aef781/lightning-2.5.5-py3-none-any.whl", hash = "sha256:69eb248beadd7b600bf48eff00a0ec8af171ec7a678d23787c4aedf12e225e8f", size = 828490, upload-time = "2025-09-05T16:01:17.845Z" },
 ]
 
 [[package]]
